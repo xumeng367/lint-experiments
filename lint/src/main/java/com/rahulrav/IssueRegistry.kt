@@ -13,7 +13,9 @@ class IssueRegistry : IssueRegistry() {
                 BadConfigurationProviderIssue,
                 RemoveWorkManagerIntializerIssue,
                 ExperimentalDetector.ISSUE,
-                LogWtfDetector.ISSUE
+                LogWtfDetector.ISSUE,
+                LogDetector.ISSUE,
+                MyLogDetector.ISSUE
         )
 
     override val api: Int = CURRENT_API
